@@ -1,0 +1,62 @@
+<!DocTyPe htML   >
+<html>
+<header>
+    <img src="Berlyn Logo.png" width="150px" height="150px" id="berlyn">
+</header>
+
+<link rel="stylesheet" href="style.css">
+   
+<body class = "style">
+    <h1> 
+        <div>
+            
+            <img scr="IMG_6350.JPG" id="photo">
+           
+        </div>
+        <div>
+            ABOUT US
+        </div> 
+    </h1>
+    <section>
+        <ul>
+            <li><a href = "file:///Users/lynnezhao/Desktop/Unimelb/code/Java/bookreviews.html"> Book Reviews</a></li>
+            <li><a href = "#section2">Photography</a></li>
+            <li><a href = "#section3">Cooking</a></li>
+            <li><a href = "#section4">Writing</a></li>
+            <li><a href = "#section5">Art</a></li>
+            <li><a href = "#section6">Music</a></li>
+
+        </ul>
+    </section>
+
+    <section id= "section1">
+        <h3 id = "box"><a href = "file:///Users/lynnezhao/Desktop/Unimelb/code/Java/bookreviews.html">Book Reviews </a></h3>
+    </section>
+
+    <section id= "section2">
+        <h3 id = "box"><a href = "file:///Users/lynnezhao/Desktop/Unimelb/code/Java/Photography.html">Photography </a></h3>
+    </section>
+
+    <section id= "section3">
+        <h3> Cooking </h3>
+    </section>
+    
+    <section id= "section4">
+        <h3> Writing </h3>
+    </section>
+
+    <section id= "section5">
+        <h3> Art </h3>
+    </section>
+
+    <section id= "section6">
+        <h3> Music </h3>
+    </section>
+
+    
+    
+</body>
+
+
+  
+</html>

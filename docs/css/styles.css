@@ -50,24 +50,7 @@ body {
     vertical-align: middle;
 }
 
-#nav-list {
-    margin-top:-5px;
-    margin-bottom: -5px;
-}
 
-#nav-list a{
-    color:#951C49;
-    text-align: center;
-    background-color:papayawhip;
-}
-
-#nav-list a:hover {
-    background: #E7E7E7;
-}
-
-#nav-list a span {
-    font-size: 1.5em;
-}
 
 #phone {
     margin-top: 5px;
@@ -104,6 +87,26 @@ body {
 }
 
 /* coding the navigation Tiles*/
+
+#nav-list {
+    margin-top:-5px;
+    margin-bottom: -5px;
+}
+
+#nav-list a{
+    color:#951C49;
+    text-align: center;
+    background-color:papayawhip;
+}
+
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+
+#nav-list a span {
+    font-size: 1.5em;
+}
+
 
 #book-reviews, #events, #members {
     height:300px;
@@ -221,15 +224,40 @@ body {
 #box5 {
     background-color:wheat;
     color:black;
-    width: 100%;
+    width: 30%;
     margin:1.5%;
     overflow:auto;
     padding-left: 0.5cm;
     padding-right: 0.5cm;
-    height: 1000px;
+    padding-bottom: 0.5cm;
+    float: left;
 }
 
-.chicken {
+#box6 {
+    background-color:wheat;
+    color:black;
+    width: 30%;
+    margin:1.5%;
+    overflow:auto;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-bottom: 0.5cm;
+    float: left;
+}
+
+#box7 {
+    background-color:wheat;
+    color:black;
+    width: 30%;
+    margin:1.5%;
+    overflow:auto;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-bottom: 0.5cm;
+    float: left;
+}
+
+.chicken,.beef,.sushi {
     color: #000;
     text-align: center;
 }
@@ -266,6 +294,7 @@ body {
     }
 
    
+   
     
 }
 
@@ -289,6 +318,12 @@ body {
 @media (max-width:767px){
 
     #box5 {
+        width: auto;
+    }
+    #box6 {
+        width: auto;
+    }
+    #box7 {
         width: auto;
     }
     .navbar-brand{
